@@ -371,8 +371,8 @@ class LocationSearchDelegate extends SearchDelegate<String> {
                 _buildInfoRow(Icons.my_location_rounded, 'ชื่อ: $name'),
                 SizedBox(height: 8),
                 _buildInfoRow(Icons.category, 'ประเภท: $type'),
-                SizedBox(height: 8),
-                _buildInfoRow(Icons.access_time, 'เวลาที่ปักหมุด: $formattedTime'),
+                // SizedBox(height: 8),
+                // _buildInfoRow(Icons.access_time, 'เวลาที่ปักหมุด: $formattedTime'),
 
                 // ✅ แสดง "รายละเอียดสถานพยาบาล" ถ้ามี
                 if (description != null && description.isNotEmpty) ...[
@@ -1314,8 +1314,8 @@ class _ClinicPageState extends State<ClinicPage> {
                 _buildInfoRow(Icons.my_location_rounded, 'ชื่อ: $name'),
                 SizedBox(height: 8),
                 _buildInfoRow(Icons.category, 'ประเภท: $type'),
-                SizedBox(height: 8),
-                _buildInfoRow(Icons.access_time, 'เวลาที่ปักหมุด: $formattedTime'),
+                // SizedBox(height: 8),
+                // _buildInfoRow(Icons.access_time, 'เวลาที่ปักหมุด: $formattedTime'),
 
                 // ✅ แสดง "รายละเอียดสถานพยาบาล" ถ้ามี
                 if (description != null && description.isNotEmpty) ...[
